@@ -1,0 +1,42 @@
+* {
+    font-family: 'Arimo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.parallax {
+    height:calc(100vh);
+    width: 100%;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    background-image: url('../img/banner.jpg');
+}
+
+#awareness {
+    background-image: url('../img/card-awareness.jpg');   
+}
+
+#calm {
+    background-image: url('../img/card-calm.jpg');
+}
+
+#midday {
+    background-image: url('../img/card-midday.jpg');
+}
+
+#mindful {
+    background-image: url('../img/card-mindful.jpg');
+}
+
+#morning {
+    background-image: url('../img/card-morning.jpg');
+}
+
+#relax {
+    background-image: url('../img/card-relax.jpg');
+}
